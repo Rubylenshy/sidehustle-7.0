@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SH | Task 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+            <h1 class="primary-header"><strong>Task 1</strong> - Simple Form</h1>
+            <p class="message"><img src="media/icon-thank-you.svg" alt="Checkmark"> Please provide the following details to complete your info.</p>
+            <form action="" method="post" >
+                <div class="">
+                    <label for="input-name">Name</label><br>
+                    <input type="text" placeholder="e.g Tom Smith" name="Name">
+                </div>
+                <div class="">
+                    <label for="input-email">Email Address</label><br>
+                    <input type="email" placeholder="e.g example@gmail.com" name="Email">
+                </div>
+                <div class="">
+                    <label for="input-phone">Phone Number</label><br>
+                    <input type="tel" placeholder="e.g 09059040945" name="Phone" maxlength="11">
+                </div>
+                <div class="">
+                    <label for="input-gender">Gender</label><br>
+                    <select type="" title="Gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                        <option value="LGBTQ">LGBTQ</option>    
+                    </select>
+                </div>
+                <div class="">
+                    <div class="password-label"><label for="input-password">Password</label> <label id="show-password" for=""><img src="https://img.icons8.com/ios-glyphs/30/null/hide.png" class="show" alt="hidden"> <img src="https://img.icons8.com/ios-glyphs/30/null/visible--v1.png" class="hide" alt="show password"/></label></div>
+                    <input type="password" minlength="6" placeholder="Enter password" name="Password">
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+    
+        
+        </div>
+    </main>
+
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
